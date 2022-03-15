@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Angular js</title>
+</head>
+<body ng-app="myapp" ng-init="numbers=[0,1,2,3,4,5,6,7,8,9]">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+    <script type="text/javascript" src="app.js"></script>
+    
+    <p ng-repeat="number in numbers" >Number is {{number}}</p>
+
+
+<!-- 
+    <p>Number is {{numbers[0]}} </p>
+    <p>Number is {{numbers[1]}} </p>
+    <p>Number is {{numbers[2]}} </p>
+    <p>Number is {{numbers[3]}} </p> -->
+    
+
+</body>
+</html>
